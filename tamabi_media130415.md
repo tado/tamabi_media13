@@ -79,5 +79,20 @@
 参考: [The Evolution of Web - Webの進化](http://www.evolutionoftheweb.com/)
 ![image](img/130415/evolutionofweb.jpg)
 	
-	
-
+## WWWを支える3つの仕組み - URL, HTML, HTTP
+
+### 自分のPCでWebページを見ているとき、何が起っているのか?* 閲覧したいWebページのアドレスを入力* 例：[http://www.idd.tamabi.ac.jp/art/index.html](http://www.idd.tamabi.ac.jp/art/index.html)
+* Webブラウザは、アドレスからサーバの場所を探しだす* “http://www.idd.tamabi.ac.jp/” の部分がこれに相当
+![image](img/130415/webdiagram1.jpg)
+* アドレスの残りの部分から、サーバ内の該当データを特定* “/art/index.html” の部分がこれに相当
+![image](img/130415/webdiagram2.jpg)
+
+* 自分のPCでWebページを見ているとき、何が起っているのか* Webページのデータをサーバから手元のPCに送信
+
+![image](img/130415/webdiagram3.jpg)
+
+* PC側で受信した情報から、Webページを生成し表示
+
+![image](img/130415/webdiagram4.jpg)### WWWを支える3つの仕組み
+#### URL (もしくは URI)* Uniform Resource Locator　* ネットワーク上の情報を一意に特定するアドレス指定方法#### HTTP　* HyperText Transfer Protocol　* コンピュータ同士が情報をやりとりするルール#### HTML　* HyperText Markup Language　* 環境にかかわりなくWWWを記述するための文書記述言語
+### URL, HTTP, HTMLの関係を図で理解する![image](img/130415/webdiagram5.jpg)
